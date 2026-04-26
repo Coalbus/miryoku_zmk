@@ -25,7 +25,7 @@ MIRYOKU_X(MACRO, "Macro")
 #define U_NUM 7
 #define U_SYM 8
 #define U_FUN 9
-#define U_MACRO 10
+#define U_MACROS 10
 
 // Your macro.
 #define MIRYOKU_LAYER_MACRO \
@@ -62,7 +62,7 @@ U_NP,              U_NP,             &none,            &none,            &none, 
         combo_macro_layer {
             timeout-ms = <75>;
             key-positions = <38 39>;
-            bindings = <&sl U_MACRO>;
+            bindings = <&sl U_MACROS>;
             layers = <U_BASE>;
         };
     };
